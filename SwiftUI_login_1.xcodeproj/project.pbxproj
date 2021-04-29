@@ -13,6 +13,7 @@
 		6C22E794263B0238004AEB5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C22E793263B0238004AEB5F /* Preview Assets.xcassets */; };
 		6CAAC3D1263B0545006F6FB9 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAAC3D0263B0545006F6FB9 /* CustomTextField.swift */; };
 		6CAAC3D4263B1313006F6FB9 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAAC3D3263B1313006F6FB9 /* Login.swift */; };
+		6CAAC3D7263B163A006F6FB9 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAAC3D6263B163A006F6FB9 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6C22E795263B0238004AEB5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CAAC3D0263B0545006F6FB9 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		6CAAC3D3263B1313006F6FB9 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		6CAAC3D6263B163A006F6FB9 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +79,9 @@
 			isa = PBXGroup;
 			children = (
 				6C22E78E263B0237004AEB5F /* ContentView.swift */,
-				6CAAC3D0263B0545006F6FB9 /* CustomTextField.swift */,
 				6CAAC3D3263B1313006F6FB9 /* Login.swift */,
+				6CAAC3D0263B0545006F6FB9 /* CustomTextField.swift */,
+				6CAAC3D6263B163A006F6FB9 /* ColorExtension.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				6C22E78F263B0237004AEB5F /* ContentView.swift in Sources */,
 				6C22E78D263B0237004AEB5F /* SwiftUI_login_1App.swift in Sources */,
 				6CAAC3D4263B1313006F6FB9 /* Login.swift in Sources */,
+				6CAAC3D7263B163A006F6FB9 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -26,11 +26,45 @@ struct Login: View {
                 Spacer()
             }
             .padding()
+            .padding(.leading)
             
             CustomTextField(image: "envelope.fill", title: "이메일", value: $email, animation: animation)
             
             CustomTextField(image: "lock.fill", title: "비밀번호", value: $password, animation: animation)
                 .padding(.top, 10)
+            
+            //하단 로그인 관련 버튼
+            HStack {
+                Spacer(minLength: 0)
+                VStack(alignment: .trailing, spacing: 15) {
+                   //비밀번호 찾기 버튼
+                    Button(action: {}) {
+                        Text("아이디 / 비밀번호 찾기")
+                            .fontWeight(.heavy)
+                            .foregroundColor(.myYellow)
+                    }
+                    // 로그인 버튼
+                    Button(action: {}) {
+                        HStack {
+                            Text("로그인")
+                                .foregroundColor(.white)
+                                .fontWeight(.heavy)
+                            Image(systemName: "arrow.right")
+                                .font(.title2)
+                                .foregroundColor(.white)
+                        }
+                        .padding(.vertical, 10)
+                        .padding(.horizontal, 20)
+                        .background(
+                            LinearGradient(gradient: Gradient(colors: [.myYellow,.myYellow_light]), startPoint: .trailing, endPoint: .leading)
+                        )
+                        .clipShape(Capsule())
+                    }
+                }
+            }
+            .padding()
+            .padding(.top, 20)
+            .padding(.trailing)
         }
     }
 }
